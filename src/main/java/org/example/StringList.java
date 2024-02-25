@@ -1,5 +1,7 @@
 package org.example;
 
+import java.util.List;
+
 public interface StringList {
 
     // Добавление элемента.
@@ -60,7 +62,7 @@ public interface StringList {
     // Сравнить текущий список с другим.
     // Вернуть true/false или исключение,
     // если передан null.
-    boolean equals(StringList otherList);
+    boolean equals(List<String> stringList);
 
     // Вернуть фактическое количество элементов.
     int size();
